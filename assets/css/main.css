@@ -2217,6 +2217,86 @@
 				background-color: #e8edec;
 			}
 
+/* Experience */
+
+			#main > section.two {
+				background-color: #81918E;
+				background-image: url("../../images/b3.jpg");
+				height: calc(100vh);
+				position: relative;
+			}
+			@media screen and (max-width: 573px){
+				#main > section.two { height:auto; }
+			}
+			#main > section.two .container{
+				    -webkit-box-flex: 1;
+			    -ms-flex: 1 1 calc(50% - 40px);
+			    flex: 1 1 calc(50% - 40px);
+			    padding: 0 20px 0 0;
+			    position: relative;
+			    text-align: left
+			}
+			#main > section.two h4.title{
+			    font-size: 40px;
+			    color: #fff;
+			    font-weight: 400;
+			}
+			#main > section.two .jobs {
+			    padding-left: 20px;
+			    position: relative;
+			}
+		
+			#main > section.two .jobs:before {
+			    position: absolute;
+			    top: 0.5rem;
+			    bottom: 0;
+			    left: 0;
+			    border-left: 1px solid #0083d6;
+			    content: '';
+			}
+			@media screen and (max-width: 573px){
+				#main > section.two .jobs {
+				    padding-left: 35px;
+				    position: relative;
+				}	
+				#main > section.two .jobs:before {
+				    left: 15px;
+				}
+			}
+			#main > section.two 	.jobs li {
+			    position: relative;
+			}
+			#main > section.two  .jobs li:before {
+			    position: absolute;
+			    top: 0.5rem;
+			    left: -22px;
+			    height: 5px;
+			    width: 5px;
+			    background: #2698e0;
+			    border-radius: 5px;
+			    content: '';
+			}
+			#main > section.two .jobs h3 {
+			    font-size: 1rem;
+			}
+			#main > section.two .jobs h4 {
+				font-size: 0.875rem;
+			}
+			#main > section.two .jobs .date {
+			    color: #aaa;
+			    font-size: 0.75rem;
+			    font-weight: 400;
+			}
+			#main > section.two .container > div {
+			    width: 48%;
+			    display: inline-block;
+			    float: left;
+			}
+			@media screen and (max-width: 573px){
+				#main > section.two .container > div {
+				    width: auto;
+				}
+			}
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
