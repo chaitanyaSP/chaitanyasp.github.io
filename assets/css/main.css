@@ -2241,6 +2241,12 @@
 			    color: #fff;
 			    font-weight: 400;
 			}
+			@media screen and (max-width: 573px){
+				#main > section.two h4.title{
+				    text-align: center;
+				}
+			}
+			
 			#main > section.two .jobs {
 			    padding-left: 20px;
 			    position: relative;
@@ -2265,6 +2271,7 @@
 			}
 			#main > section.two 	.jobs li {
 			    position: relative;
+			    margin-bottom: 15px;
 			}
 			#main > section.two  .jobs li:before {
 			    position: absolute;
@@ -2294,7 +2301,7 @@
 			}
 			@media screen and (max-width: 573px){
 				#main > section.two .container > div {
-				    width: auto;
+				    width: 100%;
 				}
 			}
 /* Wide */
@@ -2338,7 +2345,7 @@
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 5em 3em;
 			}
 
 	}
